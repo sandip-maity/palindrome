@@ -12,7 +12,7 @@ class PalindromeExample{
    sum=(sum*10)+r;    
    n=n/10;    
   }    
-  if(temp==sum)    
+  if(temp==sum)    //Condition to check if original number is same
    System.out.println("palindrome number ");    
   else    
    System.out.println("not palindrome");    
